@@ -4,17 +4,17 @@
 
 The columns returned by the `INFORMATION_SCHEMA.COLUMNS` view include:
 
-`TABLE_CATALOG`: The name of the database that contains the table.
-`TABLE_SCHEMA`: The name of the schema that contains the table.
-`TABLE_NAME`: The name of the table that contains the column.
-COLUMN_NAME: The name of the column.
-ORDINAL_POSITION: The position of the column in the table.
-COLUMN_DEFAULT: The default value of the column.
-IS_NULLABLE: Whether the column allows null values.
-DATA_TYPE: The data type of the column.
-CHARACTER_MAXIMUM_LENGTH: The maximum length of character data types (CHAR, VARCHAR, etc.).
-NUMERIC_PRECISION: The precision of numeric data types (DECIMAL, NUMERIC, etc.).
-NUMERIC_SCALE: The scale of numeric data types (DECIMAL, NUMERIC, etc.).
+`TABLE_CATALOG`: The name of the database that contains the table.<br/>
+`TABLE_SCHEMA`: The name of the schema that contains the table.<br/>
+`TABLE_NAME`: The name of the table that contains the column.<br/>
+COLUMN_NAME: The name of the column.<br/>
+ORDINAL_POSITION: The position of the column in the table.<br/>
+COLUMN_DEFAULT: The default value of the column.<br/>
+IS_NULLABLE: Whether the column allows null values.<br/>
+DATA_TYPE: The data type of the column.<br/>
+CHARACTER_MAXIMUM_LENGTH: The maximum length of character data types (CHAR, VARCHAR, etc.).<br/>
+NUMERIC_PRECISION: The precision of numeric data types (DECIMAL, NUMERIC, etc.).<br/>
+NUMERIC_SCALE: The scale of numeric data types (DECIMAL, NUMERIC, etc.).<br/>
 This information can be used for various administrative and reporting tasks, such as checking for column length and data type compatibility, querying the structure of tables, and generating reports about the schema of the database.
 
 ## 2) INFORMATION_SCHEMA.KEY_COLUMN_USAGE
@@ -23,12 +23,12 @@ INFORMATION_SCHEMA.KEY_COLUMN_USAGE is a system view in MS SQL Server that provi
 
 The columns returned by the INFORMATION_SCHEMA.KEY_COLUMN_USAGE view include:
 
-CONSTRAINT_CATALOG: The name of the database that contains the constraint.
-CONSTRAINT_SCHEMA: The name of the schema that contains the constraint.
-CONSTRAINT_NAME: The name of the constraint.
-TABLE_CATALOG: The name of the database that contains the table.
-TABLE_SCHEMA: The name of the schema that contains the table.
-TABLE_NAME: The name of the table that contains the column.
-COLUMN_NAME: The name of the column.
-ORDINAL_POSITION: The position of the column in the key or constraint.
+CONSTRAINT_CATALOG: The name of the database that contains the constraint.<br/>
+CONSTRAINT_SCHEMA: The name of the schema that contains the constraint.<br/>
+CONSTRAINT_NAME: The name of the constraint.<br/>
+TABLE_CATALOG: The name of the database that contains the table.<br/>
+TABLE_SCHEMA: The name of the schema that contains the table.<br/>
+TABLE_NAME: The name of the table that contains the column.<br/>
+COLUMN_NAME: The name of the column.<br/>
+ORDINAL_POSITION: The position of the column in the key or constraint.<br/>
 This information can be used for various administrative and reporting tasks, such as checking the structure of tables, identifying foreign key relationships between tables, and generating reports about the schema of the database.
