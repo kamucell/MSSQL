@@ -23,12 +23,12 @@ INFORMATION_SCHEMA.KEY_COLUMN_USAGE is a system view in MS SQL Server that provi
 
 The columns returned by the INFORMATION_SCHEMA.KEY_COLUMN_USAGE view include:
 
-CONSTRAINT_CATALOG: The name of the database that contains the constraint.<br/>
-CONSTRAINT_SCHEMA: The name of the schema that contains the constraint.<br/>
-CONSTRAINT_NAME: The name of the constraint.<br/>
-TABLE_CATALOG: The name of the database that contains the table.<br/>
-TABLE_SCHEMA: The name of the schema that contains the table.<br/>
-TABLE_NAME: The name of the table that contains the column.<br/>
-COLUMN_NAME: The name of the column.<br/>
-ORDINAL_POSITION: The position of the column in the key or constraint.<br/>
+`CONSTRAINT_CATALOG`: The name of the database that contains the constraint.<br/>
+`CONSTRAINT_SCHEMA`: The name of the schema that contains the constraint.<br/>
+`CONSTRAINT_NAME`: The name of the constraint.<br/>
+`TABLE_CATALOG`: The name of the database that contains the table.<br/>
+`TABLE_SCHEMA`: The name of the schema that contains the table.<br/>
+`TABLE_NAME`: The name of the table that contains the column.<br/>
+`COLUMN_NAME`: The name of the column.<br/>
+`ORDINAL_POSITION`: The position of the column in the key or constraint.<br/>
 This information can be used for various administrative and reporting tasks, such as checking the structure of tables, identifying foreign key relationships between tables, and generating reports about the schema of the database.
