@@ -1,0 +1,4 @@
+(select Name from Hr_Language where Id =(select LanguageId from PersonelLanguage where PersonId=p.Id order by Id OFFSET 0 ROWS  FETCH NEXT 1 ROWS ONLY )) Dil1,
+(select Name from Hr_Language where Id =(select LanguageId from PersonelLanguage where PersonId=p.Id order by Id OFFSET 1 ROWS  FETCH NEXT 1 ROWS ONLY )) Dil2,
+(select Name from Hr_Language where Id =(select LanguageId from PersonelLanguage where PersonId=p.Id order by Id OFFSET 2 ROWS  FETCH NEXT 1 ROWS ONLY )) Dil3,
+(select Name from Hr_Language where Id =(select LanguageId from PersonelLanguage where PersonId=p.Id order by Id OFFSET 3 ROWS  FETCH NEXT 1 ROWS ONLY )) Dil4
